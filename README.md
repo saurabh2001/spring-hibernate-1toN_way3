@@ -8,7 +8,7 @@ here we are creating STUDENT_ID_FK column in PHONE table to store the mappings u
 
 In Student.java entity we have defined @OneToMany annotation along with mappedBy attribute, mappedBy points to student object defined in Phone.java entity
 
-IN Phone.java entity we have defined @ManyToOne annotation, also we have defined the foreign key column STUDENT_ID_FK which needs to be created
+IN Phone.java entity we have defined @ManyToOne annotation, also we have defined the foreign key column STUDENT_ID_FK
 
 What does bi-directional nature of entities mean here?
 Here we can access all phone numbers of a perticular student using getStudentPhoneNumbers() method of Student class,
